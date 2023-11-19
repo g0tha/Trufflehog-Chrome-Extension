@@ -154,7 +154,6 @@ let specifics = {
     "Shopify app shared secret": "\\b(shpss_[a-f0-9]{32})\\b",
     "Slack Incoming Webhook URLs": "((https://)?hooks\\.slack\\.com/services/T[A-Za-z0-9+\\/]{42,45})",
     "Slack Workflow Webhook URLs": "((https://)?hooks\\.slack\\.com/workflows/T[A-Za-z0-9+\\/]{42,70})",
-    "Slack Bot Tokens": "(xox[bpar]\\-\\d{10,13}\\-\\d{10,13}-[\\w\\-]+)",
     "SonarQube token": "\\b(sq[apu]_[0-9a-f]{40})\\b",
     "SonarQube token": "(?is)\\bD?sonar(?:qube)?[_.]?(?:login|token)\\b.{1,30}?\\b([0-9a-f]{40})\\b(?<!sq[apu]_.{40})",
     "Spotify API secret": "(?i)spotify(?:[^\\r\\n]*?\\r?\\n){0,3}?[^\\r\\n]*secret.{0,15}?\\b([a-f0-9]{32})\\b",
